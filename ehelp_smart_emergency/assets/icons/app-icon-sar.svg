@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <filter id="Ellipse_4" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="app-icon-sar" transform="translate(8 6)">
+    <g transform="matrix(1, 0, 0, 1, -8, -6)" filter="url(#Ellipse_4)">
+      <g id="Ellipse_4-2" data-name="Ellipse 4" transform="translate(8 6)" fill="none" stroke="#707070" stroke-width="1">
+        <circle cx="15" cy="15" r="15" stroke="none"/>
+        <circle cx="15" cy="15" r="14.5" fill="none"/>
+      </g>
+    </g>
+    <path id="FontAwsome_life-ring_" data-name="FontAwsome (life-ring)" d="M20,8A12,12,0,1,0,32,20,12,12,0,0,0,20,8Zm8.4,5.785-3.068,3.068a6.263,6.263,0,0,0-2.19-2.19L26.215,11.6a10.567,10.567,0,0,1,2.19,2.19ZM20,24.645A4.645,4.645,0,1,1,24.645,20,4.645,4.645,0,0,1,20,24.645ZM13.785,11.6l3.068,3.068a6.263,6.263,0,0,0-2.19,2.19L11.6,13.785a10.566,10.566,0,0,1,2.19-2.19ZM11.6,26.215l3.068-3.068a6.263,6.263,0,0,0,2.19,2.19L13.785,28.4a10.568,10.568,0,0,1-2.19-2.19Zm14.62,2.19-3.068-3.068a6.263,6.263,0,0,0,2.19-2.19L28.4,26.215a10.568,10.568,0,0,1-2.19,2.19Z" transform="translate(-5 -5)" fill="#fff"/>
+  </g>
+</svg>

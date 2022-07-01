@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <filter id="Ellipse_5" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_1" x="3" y="3" width="42" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="app-icon-damkar" transform="translate(8 6)">
+    <g transform="matrix(1, 0, 0, 1, -8, -6)" filter="url(#Ellipse_5)">
+      <g id="Ellipse_5-2" data-name="Ellipse 5" transform="translate(8 6)" fill="none" stroke="#707070" stroke-width="1">
+        <circle cx="15" cy="15" r="15" stroke="none"/>
+        <circle cx="15" cy="15" r="14.5" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -8, -6)" filter="url(#Subtraction_1)">
+      <path id="Subtraction_1-2" data-name="Subtraction 1" d="M-556-2923a11.922,11.922,0,0,1-8.485-3.514A11.922,11.922,0,0,1-568-2935a11.922,11.922,0,0,1,3.514-8.485A11.922,11.922,0,0,1-556-2947a11.923,11.923,0,0,1,8.486,3.514A11.922,11.922,0,0,1-544-2935a11.922,11.922,0,0,1-3.515,8.485A11.923,11.923,0,0,1-556-2923Zm.1-19h0a1.58,1.58,0,0,1,.025.283c0,1.229-1.367,2.266-2.813,3.362-1.63,1.236-3.316,2.514-3.316,4.222,0,1.357,1.2,2.156,2.77,3.058,2.19,1.064,3.254,1.864,3.254,2.445a.915.915,0,0,1-.123.414.543.543,0,0,0-.076.217,1.747,1.747,0,0,0,.729-1.31c0-.776-.8-1.5-1.639-2.259l-.2-.184-.178-.167c-.607-.567-1.181-1.1-1.181-1.8,0-1.019,1.029-1.854,2.118-2.737,1.112-.9,2.261-1.834,2.261-2.994A3.563,3.563,0,0,0-555.9-2942Zm2.841,6.628,0,0a1.484,1.484,0,0,1,.378.941c0,1.157-1.725,2.72-1.742,2.736,0,.141.255.468.681.875a3.283,3.283,0,0,0,.8.627.243.243,0,0,0,.114-.054l.02-.014c1.887-1.325,2.8-2.589,2.8-3.863a2.741,2.741,0,0,0-.092-.695c-.518-1.938-3.316-3.53-3.946-3.7l.167.2a.829.829,0,0,1,.141.482c0,1.036-1.541,2.506-2.121,3.059a2.913,2.913,0,0,0-.237.237.818.818,0,0,0-.133.445,1.631,1.631,0,0,0,.746,1.189,7.288,7.288,0,0,0,1.224-.9c.526-.455,1.161-1.1,1.2-1.577Z" transform="translate(579 2956)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
